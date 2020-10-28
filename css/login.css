@@ -1,0 +1,107 @@
+.about-us 
+    { 
+        border-bottom:10px solid rgba(206, 171, 13, 0.486);
+        border-top:10px solid rgba(206, 171, 13, 0.486);
+    }
+    .login-form
+	{
+	width:350px;
+	box-shadow: 12px 12px 2px 1px rgba(2, 20, 5, 0.781);
+	background:  rgb(208, 230, 16);
+	padding:10px;
+	margin:  auto ; 
+	text-align: center;
+	border-radius:50px;
+    color: black;
+	}
+    .input-box
+    {
+		border-radius:20px;
+		padding:10px;
+		margin:10px 10px;
+		width:auto;
+		border:1px solid #999;
+		outline:none;
+    }
+    .login-btn
+    {
+	    background-color:#333;
+	    border-radius:20px;
+		padding:10px;
+		margin:10px 10px;
+		width:auto;
+		border:1px solid #999;
+		outline:none;
+		color:white;
+    }
+    .names
+    {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+    }
+  
+  
+.headerdropbtn {
+    background-color:rgba(0,0,0,1);
+    color: pink;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:-20px;
+    
+    
+}
+
+.headerdropdown {
+    position: relative;
+    /* display: inline-block; */
+    margin-top: 50PX;
+    visibility: visible; z-index: 100;
+    
+}
+
+.headerdropdown-content {
+    display: none;
+    position: absolute;
+    left:-7px;
+    background-color: #b7d411;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: initial;
+   
+}
+
+.headerdropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.headerdropdown-content a:hover {background-color: #e7da21}
+
+.headerdropdown:hover .headerdropdown-content {
+    display: block;
+    
+}
+.headerdropdown-content ul
+{
+  list-style:none;
+  
+}
+
+.headerdropdown:hover .headerdropbtn {
+    background-color: grey;
+}
+.headerdropdown .headerdropbtn a:link {
+    color: rgb(89, 206, 89);
+}
+
+.headerdropdown .headerdropbtn a:visited {
+    color: pink;
+}
+.headerdropdown .headerdropbtn a:active{
+    color: yellow;
+}

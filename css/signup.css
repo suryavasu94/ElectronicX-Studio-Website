@@ -1,0 +1,164 @@
+.about-us 
+    { 
+        border-bottom:10px solid rgba(206, 171, 13, 0.486);
+        border-top:10px solid rgba(206, 171, 13, 0.486);
+    }
+    .login-form
+	{
+	width:350px;
+	box-shadow: 12px 12px 2px 1px rgba(2, 20, 5, 0.781);
+	background-color:rgb(208, 230, 16);
+    opacity: 50;
+	padding:10px;
+	margin:  auto ; 
+	text-align: center;
+	/* border-radius:50px; */
+    border-radius: 0 0 20px 20px;
+    color: black;
+	}
+    .input-box
+    {
+		border-radius:20px;
+		padding:10px;
+		margin:10px 10px;
+		width:auto;
+		border:1px solid #999;
+		outline:none;
+    }
+    .login-btn
+    {
+	    background-color:#333;
+	    border-radius:20px;
+		padding:10px;
+		margin:10px 10px;
+		width:auto;
+		border:1px solid #999;
+		outline:none;
+		color:white;
+    }
+    .names
+    {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .or 
+    {
+  	    position: absolute;
+  	    top: 1050px;
+  	    margin-left:48%;
+	    margin-right:auto;
+ 	    width: 40px;
+ 	    height: 40px;
+  	    background: none;
+  	    border-radius: 50%;
+  	    line-height: 40px;
+  	    text-align: center;
+	    background-color:grey;
+    }
+
+    
+    a button.social-signin {
+  	margin-bottom: 20px;
+	margin-left:15%;
+  	width: 220px;
+  	height: 35px;
+  	border: none;
+  	border-radius: 8px;
+  	color: #FFF;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 500;
+  	transition: 0.3s ease;
+  	cursor: pointer;
+}
+
+a button.social-signin:hover,
+a button.social-signin:focus {
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  	transition: 0.2s ease;
+	transform:scale(1.1);
+}
+
+a button.social-signin:active {
+  	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  	transition: 0.2s ease;
+}
+
+a button.social-signin.facebook {
+  	background: #32508E;
+}
+
+a button.social-signin.twitter {
+  	background: #55ACEE;
+}
+
+a button.social-signin.google {
+  	background: #DD4B39;
+}
+
+
+
+.headerdropbtn {
+    background-color:rgba(0,0,0,1);
+    color: pink;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:-20px;
+    
+    
+}
+
+.headerdropdown {
+    position: relative;
+    /* display: inline-block; */
+    margin-top: 50PX;
+    visibility: visible; z-index: 100;
+    
+}
+.headerdropdown-content ul
+{
+  list-style:none;
+  
+}
+
+.headerdropdown-content {
+    display: none;
+    position: absolute;
+    left:-7px;
+    background-color: #b7d411;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: initial;
+   
+}
+
+.headerdropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.headerdropdown-content a:hover {background-color: #e7da21}
+
+.headerdropdown:hover .headerdropdown-content {
+    display: block;
+    
+}
+
+.headerdropdown:hover .headerdropbtn {
+    background-color: grey;
+}
+
+.headerdropdown .headerdropbtn a:link {
+    color: rgb(89, 206, 89);
+}
+
+.headerdropdown .headerdropbtn a:visited {
+    color: pink;
+}
+.headerdropdown .headerdropbtn a:active{
+    color: yellow;
+} 

@@ -1,0 +1,448 @@
+{header;}
+#header {border: 2px;background-color: white;margin: -7px -10px 0 -7px;color:white;padding: 50px;background: rgba(0,0,0,1);}
+    body
+    {
+        background-color: rgba(0, 0, 0, 0.904);
+    }
+    /* Caption of page */
+    .caption
+    {
+        font-style: italic;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        color:chartreuse;
+        position: absolute;
+        display:inline-block;
+        margin-top:50px;
+        text-align: start;
+        text-decoration: chocolate;
+        
+    }
+    .menu
+    {
+      font-size: 20px;
+      display:inline;
+      float:right;
+      color:chartreuse;
+      margin-right:10px;
+      margin-top:-40px;
+      position: relative;
+    }
+    /* Follow us social media icons */
+    .socialmediaicons
+    {
+        /* padding-right: 10px; */
+        /* margin-right: 0px; */
+        float: right;
+        /* margin-top: 0px;*/
+        /* display:inline-block;  */
+        color:white;
+        font-size: 20px;
+    }
+    /* Slideshow container */
+    .slideshow-container 
+    {
+        max-width: 1500px;
+        position: relative;
+        margin: auto;
+    }
+    /* The dots/bullets/indicators */
+    .dot 
+    {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Number text (1/3 etc) */
+    .numbertext 
+    {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .mySlides {display: none;}
+    /* img {vertical-align: middle;} */
+    .active 
+    {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    .fade
+    {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade 
+    {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px} 
+  }
+  .homepage
+  {
+    font-size: 30px;
+    text-transform: uppercase;
+    color:white;
+    margin-left: 30px;
+    padding-left: 20px;
+  }
+  .stealdeals
+  {
+    display: inline-block;
+    /* padding-right:100px; */
+    margin-left: 30px;
+    margin-bottom: 30px;
+    /* margin-right: 20px;
+    position: absolute; */
+    border:2px solid #323232;
+  }
+  .featuredbrands
+  {
+    display: inline-block;
+    /* padding-right:100px; */
+    margin-left: 50px;
+    margin-bottom: 30px;
+    /* margin-right: 20px;
+    position: absolute; */
+    border:2px solid #323232;
+  }
+  .expinspotlight
+  {
+    
+    display: inline-block;
+    /* padding-right:100px; */
+    margin-left: 50px;
+    margin-bottom: 30px;
+    /* margin-right: 20px;
+    position: absolute; */
+    border:2px solid #323232;
+  
+  }
+  .title
+  {
+    color:white;
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+  .title a{ color:white; }
+  .title a:hover{ color: rgb(241, 31, 161); }
+  .cont-text {
+		top:10%;
+		width:40%;
+		color:white;
+		font-size:350%;
+		text-transform:uppercase;
+		letter-spacing:5px;
+		text-shadow:0 0 10px black;
+		line-height:40px;
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:5%;
+	}
+  input[type=text],[type=email]{
+		width:50%;
+  		padding: 12px 20px;
+ 	 	margin: 8px 0;
+  		display: inline-block;
+  		border: 2px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;	
+		background-color:#e6e9ed;	
+		transition:0.3s;
+		opacity:0.8;
+	}
+
+	input[type=text]:focus,[type=email]:focus , textarea:focus {
+		border-color:#83f442;
+		box-shadow:0 0 8px 0 #83f442;
+	}
+
+  textarea {
+		width:50%;
+		height:20%;
+		padding: 12px 20px;
+ 	 	margin: 8px 0;
+  		display: inline-block;
+  		border: 2px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;
+		background-color:#e6e9ed;
+		opacity:0.8;
+	}
+
+  .btn {
+		border:2px solid #1ee850;
+		background:none;
+		padding:10px 20px;
+		font-size:20px;
+		font-family:"montserrat";
+		cursor:pointer;
+		margin:10px;
+		transition:0.4s;
+		position:relative;
+		overflow:hidden;
+    color:#1ee850;
+	}
+  .btn:hover {
+		color:white;
+	}
+
+	.btn::before {
+		content:"";
+		position:absolute;
+		left:0;
+		width:100%;
+		height:0%;
+		background:#1ee850;
+		opacity:0.4;
+		transition:0.4s;
+	}
+
+	.btn1::before {
+		top:0;
+		border-radius:0 0 50% 50%;
+	}
+
+
+	.btn:hover::before {
+		height:180%;
+
+	}
+  .footer-bottom {
+		background:#323232;
+		color:white;
+		height:40px;
+		width:100%;
+		text-align:center;
+		padding-top:10px;
+	}
+  .footr {
+		border:2px solid #323232;
+		background-color:#323232;
+		width:99.7%;
+		margin-top:10%px;
+		padding-top:1.5%;
+		padding-bottom:2%;
+		overflow:auto;
+	}
+  .footr-two-col {
+		width:33%;
+		float:left;
+    margin-bottom: 0px;
+	}
+
+	.footr-link a:link {
+		font-size:120%;
+		color:white;
+	}
+
+	.footr-link a:visited {
+		color:white;
+	}
+
+	.footr-link a:hover {
+		color:#686868;
+  }
+  .subscription
+  {
+    color:white;
+    margin-left: -2000px;
+  }
+  .subscription-box
+  {
+    display: inline;
+    
+  
+  }
+  .payment ul
+  {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  li 
+  {
+  float: left;
+  }
+  .weaccept
+  {
+    color:rgb(187, 235, 92);
+    font-size: 30px;
+    
+  }
+  .footersociamediaicons
+  {
+    /* margin-bottom: -100px; */
+    /* margin-top: 100px; */
+    position:relative;
+  }
+  .customerservice
+  {
+    margin-left: 1200px;
+    background-color: rgb(156, 141, 141);
+  }
+  .customservicehead
+  {
+    color:hotpink;
+    font-size: 30px;
+   margin-left: 1200px;
+   margin-top: -100px;
+
+  }
+  .buttonsubscribe
+  {
+    margin-left: 1340px;
+    /* margin-top: -1000px; */
+
+    
+  }
+  .app-background
+  {
+    color:khaki;
+    display: inline-block;
+  }
+  .button_1{
+	height:38px;
+	background: rgb(119, 204, 23);
+	border:0;
+	padding-left: 20px;
+	padding-right:20px;
+	color:#ffffff;
+  color:black;
+}
+  .dropbtn {
+    background-color:rgba(0,0,0,1);
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:-20px;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left:-7px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+    
+}
+
+
+.headerdropbtn {
+    background-color:rgba(0,0,0,1);
+    color: pink;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top:-20px;
+    list-style:none;
+    
+    
+}
+
+.headerdropdown {
+    position: relative;
+    /* display: inline-block; */
+    margin-top: 50PX;
+    visibility: visible; z-index: 100;
+    
+}
+
+.headerdropdown-content {
+    display: none;
+    position: absolute;
+    left:-7px;
+    background-color: #b7d411;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: initial;
+    te
+   
+}
+
+.headerdropdown-content ul
+{
+  list-style:none;
+  
+}
+
+.headerdropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+   
+}
+
+.headerdropdown-content a:hover {background-color: #e7da21}
+
+.headerdropdown:hover .headerdropdown-content {
+    display: block;
+    
+}
+
+.headerdropdown:hover .headerdropbtn {
+    background-color: grey;
+}
+
+.headerdropdown .headerdropbtn a:link {
+    color: rgb(89, 206, 89);
+}
+
+.headerdropdown .headerdropbtn a:visited {
+    color: pink;
+}
+.headerdropdown .headerdropbtn a:active{
+    color: yellow;
+}

@@ -1,0 +1,264 @@
+.bgimage
+{
+    background-image: url(img/loginbgimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 2100px;
+}
+/* Caption of page */
+.caption
+{
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:chartreuse;
+    
+    position: absolute;
+    display:inline-block;
+    margin-top:50px;
+    text-align: start;
+    text-decoration: chocolate;
+    
+}
+.menu
+{
+  font-size: 20px;
+  display:inline;
+  float:right;
+  color:black;
+  margin-right:10px;
+  margin-top:-40px;
+  position: relative;
+}
+/* Follow us social media icons */
+.socialmediaicons
+{
+    /* padding-right: 10px; */
+    /* margin-right: 0px; */
+    float: right;
+    /* margin-top: 0px;*/
+    /* display:inline-block;  */
+    color:white;
+    font-size: 20px;
+}
+.about-us 
+{ 
+    border-bottom:10px solid rgba(206, 171, 13, 0.486);
+    border-top:10px solid rgba(206, 171, 13, 0.486);
+}
+.login-form
+{
+width:350px;
+box-shadow: 12px 12px 2px 1px rgba(2, 20, 5, 0.781);
+background:  rgb(208, 230, 16);
+padding:10px;
+margin:  auto ; 
+text-align: center;
+border-radius:50px;
+color: black;
+}
+.input-box
+{
+    border-radius:20px;
+    padding:10px;
+    margin:10px 10px;
+    width:auto;
+    border:1px solid #999;
+    outline:none;
+}
+.login-btn
+{
+    background-color:#333;
+    border-radius:20px;
+    padding:10px;
+    margin:10px 10px;
+    width:auto;
+    border:1px solid #999;
+    outline:none;
+    color:white;
+}
+.names
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cat-title {
+        margin-top:5%;
+        font-size:200%;
+        margin-left:auto;
+        margin-right:auto;
+        color:lightcoral;
+    }
+
+.floating-box 
+{
+background-color: lightgray;
+float: left;
+width: 300px;
+height: 400px;
+margin: 50px;
+border: 0px;
+margin-right:10px;
+text-align: center;
+box-shadow: 0 5px 10px 0 grey;
+}
+
+
+
+
+
+.zoomimage {
+        height:270px;
+        widows: 270px;
+        overflow: auto;
+        text-align: center;
+    }
+    
+    img {
+       
+        transition: 0.75s;
+    }
+    
+    .zoomimage:hover img {
+        transform: scale(1.2);
+    }
+    
+    .baax {
+        margin: 28px;
+        float:left;
+        width:200px;
+        height: 200px;
+        border:0px transparent;
+    }
+
+.product-content{ padding: 10px 0; }
+.title{
+font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+color:black;
+position: absolute;
+margin-top: 250px;
+margin-left: 20px;
+
+}
+.title a{ color: black; }
+.title a:hover{ color: var(--main-color); }
+.price{
+color: #333;
+font-size: 14px;
+font-weight: 400;
+margin-top: 300px;
+}
+.price span{
+color: #333;
+text-decoration: line-through;
+margin-right: 3px;
+}
+.price.discount{ color: var(--main-color); }
+
+.product-discount-label{
+content: "";
+color: #fff;
+background-color: #2ecc71;
+font-size: 12px;
+line-height: 28px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+padding: 0 7px;
+position: absolute;
+top: 12px;
+left: 12px;
+z-index: 3;
+
+}
+.product-trend-label
+{
+content: "";
+color: #fff;
+background-color: #2ecc71;
+font-size: 12px;
+line-height: 28px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+padding: 0 7px;
+position: absolute;
+top: 12px;
+left: 12px;
+z-index: 3; 
+margin-top: 300px; 
+margin-left: 50px;  
+}
+.product-discount-label{
+background-color: red;
+left: auto;
+right: 12px;
+margin-right:1220px;
+margin-top: 300px; 
+}
+
+.headerdropbtn {
+background-color:rgba(0,0,0,1);
+color: pink;
+padding: 16px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+margin-top:-20px;
+
+
+}
+
+.headerdropdown {
+position: relative;
+/* display: inline-block; */
+margin-top: 50PX;
+visibility: visible; z-index: 100;
+
+}
+
+.headerdropdown-content {
+display: none;
+position: absolute;
+left:-7px;
+background-color: #b7d411;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+opacity: initial;
+
+}
+
+.headerdropdown-content a {
+color: black;
+padding: 4px;
+text-decoration: none;
+display: block;
+}
+
+.headerdropdown-content a:hover {background-color: #e7da21}
+
+.headerdropdown:hover .headerdropdown-content {
+display: block;
+
+}
+
+.headerdropdown:hover .headerdropbtn {
+background-color: grey;
+}
+.headerdropdown .headerdropbtn a:link {
+color: rgb(89, 206, 89);
+}
+.headerdropdown-content ul
+{
+  list-style:none;
+  
+}
+
+.headerdropdown .headerdropbtn a:visited {
+color: pink;
+}
+.headerdropdown .headerdropbtn a:active{
+color: yellow;
+}
